@@ -12,14 +12,20 @@
         tools:layout="@layout/fragment_inbox" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.mymail.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_outbox"
+        android:name="com.example.mymail.ui.outbox.OutboxFragment"
+        android:label="@string/menu_outbox"
+        tools:layout="@layout/fragment_outbox" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.mymail.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_trash"
+        android:name="com.example.mymail.ui.trash.SpamFragment"
+        android:label="@string/menu_trash"
+        tools:layout="@layout/fragment_trash" />
+
+    <fragment
+        android:id="@+id/nav_spam"
+        android:name="com.example.mymail.ui.trash.SpamFragment"
+        android:label="@string/menu_spam"
+        tools:layout="@layout/fragment_spam" />
 </navigation>
