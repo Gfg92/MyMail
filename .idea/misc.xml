@@ -11,7 +11,7 @@
         <entry key="app/src/main/res/layout/fragment_outbox.xml" value="0.10555555555555556" />
         <entry key="app/src/main/res/layout/fragment_spam.xml" value="0.10555555555555556" />
         <entry key="app/src/main/res/layout/fragment_trash.xml" value="0.10555555555555556" />
-        <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.19519927536231885" />
+        <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.33" />
         <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.33" />
       </map>
     </option>
