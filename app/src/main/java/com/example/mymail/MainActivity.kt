@@ -3,7 +3,6 @@ package com.example.mymail
 import android.graphics.BitmapFactory
 import android.os.Bundle
 import android.view.Menu
-import android.view.View
 import android.widget.*
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.navigation.NavigationView
@@ -15,6 +14,9 @@ import androidx.navigation.ui.setupWithNavController
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.graphics.drawable.RoundedBitmapDrawableFactory
+import androidx.recyclerview.widget.DefaultItemAnimator
+import androidx.recyclerview.widget.RecyclerView
+import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.example.mymail.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -65,6 +67,8 @@ class MainActivity : AppCompatActivity() {
         val list_email = header.findViewById<Spinner>(R.id.spinner)
         list_email.adapter = adaptador
         adaptador.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+
+
 
     }
 
